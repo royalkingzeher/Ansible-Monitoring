@@ -1,5 +1,5 @@
 - name: Install grafana
-  yum:
+  apt:
     name: https://dl.grafana.com/enterprise/release/grafana-enterprise-{{ version }}-1.x86_64.rpm
     state: latest
 
